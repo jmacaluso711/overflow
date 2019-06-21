@@ -15,8 +15,8 @@ const Header = ({ siteTitle }) => (
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
+          className="text-red-500"
           style={{
-            color: `#E53E3E`,
             textDecoration: `none`,
           }}
         >
@@ -25,6 +25,11 @@ const Header = ({ siteTitle }) => (
       </h1>
       <nav style={{ marginLeft: 'auto' }}>
         <Link
+          to="/get-started">
+          Blog
+        </Link>
+        <Link
+          className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 ml-8"
           to="/get-started">
           Get Started
         </Link>
