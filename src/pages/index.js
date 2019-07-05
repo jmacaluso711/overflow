@@ -14,7 +14,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div style={{ height: '70vh', display: 'flex', alignItems: 'center', 'justifyContent': 'center' }}>
       <div style={{ maxWidth: '900px', display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
-        <h1 style={{ fontSize: '72px', textAlign: 'center' }}>We build beautiful digital products.</h1>
+        <h1 style={{ fontSize: '72px', textAlign: 'center' }}>We build&nbsp;beautiful<br />digital experiences.</h1>
         <Link to="/get-started" className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4">Let's Chat</Link>
       </div>
     </div>
@@ -26,7 +26,7 @@ const IndexPage = () => (
             <img src={devIcon} className="mr-5" alt="dev icon" />
             <div>
               <h3 className="mb-2">Development</h3>
-              <p>Wether you need a CMS driven website, a static micro site or a cross platform native app, we build quickly and reliably and often while iterating and to minimize errors and achieve a fast feedback loop. We help our clients build and optimize their continuous delivery pipelines.</p>
+              <p>Whether you need a CMS driven website, a static micro site or a cross platform native app, we build quickly and reliably and often while iterating and to minimize errors and achieve a fast feedback loop. We help our clients build and optimize their continuous delivery pipelines.</p>
             </div>
           </div>
           <div className="flex items-start mb-8">
@@ -91,7 +91,7 @@ const IndexPage = () => (
     <div className="bg-blue-800 text-white px-4 py-16">
       <div className="flex items-center justify-between max-w-4xl m-auto">
         <div className="flex-1">
-          <img src={headshot} alt="John Macaluso"/>
+          <img src={headshot} alt="John Macaluso" />
         </div>
         <div class="flex-1 ml-10">
           <h3>John Macaluso</h3>
